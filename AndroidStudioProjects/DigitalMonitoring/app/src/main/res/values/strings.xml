@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Digital Monitoring</string>
+    <string name="app_description">Monitor and control your app usage with time limits and statistics</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_app_limits">App Limits</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_title">Welcome to Digital Monitoring!</string>
+    <string name="welcome_subtitle">Monitor your app usage, set time limits, and view statistics.</string>
+    <string name="manage_app_limits">Manage App Limits</string>
+    <string name="view_statistics">View Statistics</string>
+    
+    <!-- App Limits Screen -->
+    <string name="app_limits_title">App Limits</string>
+    <string name="add_app_limit">Add App Limit</string>
+    <string name="app_package_name">App Package Name (e.g., com.whatsapp)</string>
+    <string name="time_limit_minutes">Time Limit (minutes)</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="minutes_limit">%d minutes limit</string>
+    
+    <!-- Statistics Screen -->
+    <string name="usage_statistics">Usage Statistics</string>
+    <string name="used_minutes" formatted="false">Used: %d minutes / %d minutes</string>
+    
+    <!-- Profile Screen -->
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_description_short">Monitor and control your app usage</string>
+    
+    <!-- Permissions -->
+    <string name="permission_overlay_required">Overlay permission is required for time limit notifications</string>
+    <string name="permission_usage_stats_required">Usage stats permission is required to monitor app usage</string>
+    
+    <!-- Service -->
+    <string name="service_notification_title">App Usage Monitoring</string>
+    <string name="service_notification_text">Monitoring app usage in background</string>
+    
+    <!-- Overlay -->
+    <string name="overlay_time_limit_exceeded">Time limit exceeded for %s</string>
+    <string name="overlay_close">Close</string>
+    <string name="overlay_snooze">Snooze</string>
+</resources>
